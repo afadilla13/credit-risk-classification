@@ -28,6 +28,12 @@ The exact values for precision and recall can be obtained from the `classificati
 The logistic regression model provides a method to predict the loan status based on the given features. By evaluating the model using metrics like accuracy, precision, and recall, we can gauge its performance and reliability.
 
 **Recommendation**: 
-Based on the results, [Recommendation would be based on the actual values of the metrics, which are not provided in the code. For instance, if the accuracy, precision, and recall are high, then the model can be recommended for use by the company. If the metrics are not satisfactory, then further tuning or a different model approach might be suggested.]
+Based on the results, the model demonstrates exceptional performance in predicting both "healthy loans" and "high-risk loans".
 
-In conclusion, it's essential to consider both the business context and the model's metrics when deciding whether to deploy a machine learning model. The logistic regression model's performance should be continuously monitored and updated as new data becomes available.
+For "healthy loans (0)": The model boasts a precision of 1.00 and a recall of 0.99, resulting in an impressive f1-score of 1.00. This indicates that the model is highly accurate and reliable in identifying loans that are healthy.
+
+For "high-risk loans (1)": The model has a precision of 0.85 and a recall of 0.91, leading to an f1-score of 0.88. While this is slightly lower than the metrics for healthy loans, it's still commendable, especially considering the challenges often associated with predicting high-risk categories.
+
+The overall accuracy of the model is 0.99, which is outstanding. The macro average f1-score of 0.94 and the weighted average f1-score of 0.99 further emphasize the model's robustness and balanced performance across both classes.
+
+In conclusion, the logistic regression model does a commendable job predicting both the 0 (healthy loan) and 1 (high-risk loan) labels, making it a valuable tool for decision-making in loan assessments.
