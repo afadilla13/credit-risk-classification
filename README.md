@@ -23,8 +23,4 @@ The exact values for precision and recall can be obtained from the `classificati
 The logistic regression model provides a method to predict the loan status based on the given features. By evaluating the model using metrics like accuracy, precision, and recall, we can gauge its performance and reliability.
 
 **Recommendation**: 
-Based on the results, the model demonstrates exceptional performance in predicting both "healthy loans" and "high-risk loans".
-
-The overall accuracy of the model is 0.99, which is outstanding. The macro average f1-score of 0.94 and the weighted average f1-score of 0.99 further emphasize the model's robustness and balanced performance across both classes.
-
-In conclusion, the logistic regression model does a commendable job predicting both the 0 (healthy loan) and 1 (high-risk loan) labels, making it a valuable tool for decision-making in loan assessments.
+Based on the results, the model demonstrates exceptional performance in predicting both "healthy loans" and "high-risk loans". The overall accuracy of the model is 0.99, which is outstanding. The macro average f1-score of 0.94 and the weighted average f1-score of 0.99 further emphasize the model's robustness and balanced performance across both classes. In conclusion, the logistic regression model does a commendable job predicting both the 0 (healthy loan) and 1 (high-risk loan) labels, making it a valuable tool for decision-making in loan assessments.
